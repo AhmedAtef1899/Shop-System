@@ -1,0 +1,203 @@
+* {
+   -weblit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'Work Sans', sans-serif;
+   background-color: #222;
+}
+.parent{
+   background-color: rgb(51, 51, 83);  
+}
+.container
+{
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+} 
+@media(min-width:768px)
+{
+   .container{
+       width: 750px;
+   }
+}
+@media(min-width:992px)
+{
+   .container{
+       width: 970px;
+   }
+}
+@media(min-width:1200px)
+{
+   .container{
+       width: 1170px;
+   }
+}
+.txt
+{
+   text-align: center;
+   color: white;
+}
+h3
+{
+    position: relative;
+    bottom: 15px;
+}
+#title
+{
+   width: 100%;
+   height: 40px;
+   border: none;
+   border-radius: 3px; 
+   position: relative;
+   bottom: 15px;
+}
+#price
+{
+   width: 200px;
+   height: 40px;
+   border: none;
+   border-radius: 3px; 
+}
+#ads
+{
+   width: 200px;
+   height: 40px;
+   border: none;
+   border-radius: 3px; 
+}
+#taxes
+{
+   width: 200px;
+   height: 40px;
+   border: none;
+   border-radius: 3px; 
+}
+#discount
+{
+   width: 200px;
+   height: 40px;
+   border: none;
+   border-radius: 3px; 
+}
+#total
+{
+   width: 50px;
+   height: 30px;
+   border: none;
+   border-radius: 3px;
+   background-color: brown;
+   padding: 5px 2px;
+}
+#total::before
+{
+    content: 'Total:';
+}
+input
+{
+   background-color: #111;
+   outline: none;
+   color: white;
+}
+input:focus
+{
+   background-color: #000;
+   transform: scale(1.08);
+}
+#count
+{
+   width: 100%;
+   height: 40px;
+   border: none;
+   border-radius: 3px; 
+   position: relative;
+   top: 15px;
+}
+button
+{
+   background-color:blueviolet;
+   color: white;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+   transition: 0.3s;
+   border: none;
+   border-radius: 10px; 
+}
+button:hover
+{
+   background-color: #470053;
+   letter-spacing: 1px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#btnCr
+{
+   width: 100%;
+   height: 30px;
+   position: relative;
+   top: 45px;
+}
+#category
+{
+   width: 100%;
+   height: 40px;
+   border: none;
+   border-radius: 3px; 
+   position: relative;
+   top: 30px;
+}
+#search
+{
+   position: relative;
+   top: 60px;
+   width: 100%;
+   height: 40px;
+   border: none;
+   border-radius: 3px;
+}
+.btn
+{
+   position: relative;
+   top: 90px;
+   display: flex;
+   justify-content:space-between ;
+   
+}
+#searchCategory
+{
+   width: 45%;
+   height: 25px;
+}
+#searchTitle
+{
+   width: 45%;
+   height: 25px;
+}
+table
+{
+   position: relative;
+   top: 105px;
+   width: 100%;
+   text-align: center;
+   color: white;
+   margin: 10px 0;
+}
+th
+{
+   text-transform: uppercase;
+}
+td
+{
+   padding: 5px;
+}
+#clear
+{
+   position: relative;
+   top: 75px;
+}
+#del
+{
+   width: 100%;
+   height: 30px;
+}

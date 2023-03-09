@@ -1,0 +1,52 @@
+body
+{
+    background-color: #111;
+}
+.box
+{
+    position: relative;
+    text-align: center;
+    margin-top: 15%;
+    border: 2px solid #222 ;
+    background-color: #222;
+    color: #fff;
+    width: 300px;
+    left: 40%;
+    height: 250px;
+    border-radius: 10px;
+}
+h1
+{
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size:xx-large;
+}
+input
+{
+    border: none;
+    height: 35px;
+    width: 70%;
+    background-color: #444;
+    outline: none;
+    color: #fff;
+    font-style: italic;
+}
+#btn
+{
+    border-radius: 50px;
+    cursor: pointer;
+}
+#btn:hover
+{
+    background-color: #111;
+}
+.inp
+{
+    position: relative;
+    top: 70px;
+    text-decoration: none;
+    font-size: xx-large;
+    border: dashed 2px;
+    text-align: center;
+    color: green;
+}
